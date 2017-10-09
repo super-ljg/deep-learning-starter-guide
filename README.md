@@ -21,9 +21,9 @@ You should read these guides sequentially.
 
 A good tutorial is [UFLDL](http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/). It's highly recommended to read this tutorial one by one sequentially.
 
---
+---
 
-##Contributors
+## Contributors
 
 - [klauscc](https://github.com/klauscc)
 - [sjtuGC](https://github.com/sjtuGC)

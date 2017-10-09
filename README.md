@@ -3,7 +3,7 @@ The guide for deep learning beginner, include Linux Basic, Math Basic, Deep-Lear
 
 You should read these guides sequentially.
 
-**For contributers, you can write your `.md` docs in Chinese or English, but `README.md` in English only**
+**For contributors, you can write your `.md` docs in Chinese or English, but `README.md` in English only**
 
 ## Linux Basic
 
@@ -21,3 +21,9 @@ You should read these guides sequentially.
 
 A good tutorial is [UFLDL](http://ufldl.stanford.edu/tutorial/supervised/LinearRegression/). It's highly recommended to read this tutorial one by one sequentially.
 
+--
+
+##Contributors
+
+- [klauscc](https://github.com/klauscc)
+- [sjtuGC](https://github.com/sjtuGC)

@@ -16,11 +16,11 @@
 
 我们有时对多个维度进行卷积运算。例如，如果把二维的图像 I 作为输入，我们也相应的需要使用二维的核 K：</br>
 
-<p align="center"><img width="40%" height="20%" src="C:\Users\GC\Desktop\remove\QQ截图20171009195756.png" /></p>
+<p align="center"><img width="40%" height="20%" src="img/cnn_md_pic1.png" /></p>
 
 下图显示了一个 2 维卷积的例子。我们用画有箭头的方框来说明输出张量的左上角元素是如何通过对输入张量相应的左上角区域使用核进行卷积得到的。
 
-<p align="center"><img width="40%" height="30%" src="C:\Users\GC\Desktop\remove\QQ截图20171009195140.png" /></p>
+<p align="center"><img width="40%" height="30%" src="img/cnn_md_pic2.png" /></p>
 
 ---
 2.线性整流层

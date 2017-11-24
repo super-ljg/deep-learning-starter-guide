@@ -309,7 +309,7 @@ Dynamic section at offset 0x1de8 contains 27 entries:
 - `conda create -n env-name` 创建一个名为env-name的环境，
 - `conda create -n env-name numpy scipy` 创建一个包含numpy和scipy包的环境
 - `conda install -n env-name scipy=0.15.0` 指定package的版本
-- `conda install -n env-name --clone cloned-env` 克隆cloned-env到env-name中，所有cloned-env中的包都会被克隆到env-name中。
+- `conda create -n env-name --clone cloned-env` 克隆cloned-env到env-name中，所有cloned-env中的包都会被克隆到env-name中。
 
 **自己创建的环境有写权限，你可以对它做任何事情**
 

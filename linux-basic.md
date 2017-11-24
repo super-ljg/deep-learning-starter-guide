@@ -44,7 +44,8 @@
 - `grep` 可以过滤输出流的文本
 - `top` 查看正在运行的进程
 - `nvidia-smi` 查看显卡占用情况
-- `df -h` 查看磁盘挂载和已用情况
+- `df -h` 查看磁盘挂载和已用情况  
+- `du -h filename/dir_name` 查看文件或目录的大小
 - `screen` 或者`tmux` 在这些窗口中运行的任务，即使关掉你的终端也不会被杀掉，否则一旦ssh连接关闭任务会被杀死。
 
 #### 1.0.2 环境变量
@@ -99,7 +100,7 @@ HOST ss1
 `[ ]`中内容表示可有可无，传输文件夹需要`-r`
 
 - 单个文件推荐 `scp [-r] -P port username@host-ip:/path/to/your/file /save/to/here`
-- 大量文件推荐，可端点续传 `sync -avz -P -e "ssh -p $portNumber" user@remoteip:/path/to/files/ /local/path/`
+- 大量文件推荐，可端点续传 `rsync -avz -P -e "ssh -p $portNumber" user@remoteip:/path/to/files/ /local/path/`
 
 #### 1.4.2 从本地推到远程服务器
 
@@ -309,7 +310,7 @@ Dynamic section at offset 0x1de8 contains 27 entries:
 - `conda create -n env-name` 创建一个名为env-name的环境，
 - `conda create -n env-name numpy scipy` 创建一个包含numpy和scipy包的环境
 - `conda install -n env-name scipy=0.15.0` 指定package的版本
-- `conda install -n env-name --clone cloned-env` 克隆cloned-env到env-name中，所有cloned-env中的包都会被克隆到env-name中。
+- `conda create -n env-name --clone cloned-env` 克隆cloned-env到env-name中，所有cloned-env中的包都会被克隆到env-name中。
 
 **自己创建的环境有写权限，你可以对它做任何事情**
 
